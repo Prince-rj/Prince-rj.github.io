@@ -1,0 +1,158 @@
+body{
+    background-color: #0c0116;
+}
+.cardweb{
+    /* margin-top: 34px; */
+    display: flex; 
+    flex-direction: row; 
+    /* gap:50vw; */
+    /* justify-content: center; */  
+    align-items: center;
+    /* overflow: scroll; */
+    /* width:50%; */
+}
+.firstcode{
+    background-color: rgb(53, 0, 118);
+
+}
+.codeheader{
+    display: flex;
+    width: 310px;
+    margin:auto;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 10px;
+    font-family: 'Julee', cursive;
+}
+.codeheader:hover{
+    border-bottom:rgb(255, 249, 249) 5px solid;
+    border-radius: 50%;
+    transition:all 1s;
+}
+.webDevelopment{
+    
+    border-radius: 12px;
+    margin-top: 12px;
+    padding-top: 30px;
+    font-family: 'Julee', cursive;
+    display: flex;
+    height: 71vh;
+}
+.cardweb img{
+    padding: 2px;
+    background: radial-gradient(red,black);
+    border-radius: 10px;
+    /* padding: 0 290px;
+    width:100vw; 
+    background-color: black;
+    text-align: center; */
+}
+.projects{
+    overflow: scroll;
+    height: 360px;
+    /* padding-top: 34px; */
+    width:49%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  
+}
+.projects::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.codeweblist{
+    border-bottom:3px black solid;
+    cursor:pointer;
+    margin:15px;
+    border-radius: 12px;
+    list-style: none;
+}
+.codeweblist h3{
+
+    padding:20px;
+    padding-left:10px;
+    /* padding-bottom: 10px; */
+}
+.codeweblist:hover{
+    border-bottom:3px rgba(255, 255, 255, 0.144) solid;
+    /* border-left:3px rgba(255, 255, 255, 0.144) solid;
+    border-right:3px rgba(255, 255, 255, 0.144) solid; */
+    transition: all 0.5s;
+    background-color: rgba(12, 1, 26, 0.54);
+}
+.content{
+    padding: 13px;
+    line-height: 33px;
+    text-align: justify;
+    margin-top: 12px ;
+}
+.secondcode{
+    background-color: rgb(74, 7, 7);
+}
+.conlink{
+  text-decoration: none;
+  color:white;
+}
+
+  
+  /* Navigation bar */
+  
+  /* Code container */
+  .codecontainer {
+    /* padding: 10px; */
+  }
+  
+  .firstcode {
+    background-color: rgba(30, 0, 255, 0.09);
+    padding: 10px;
+  }
+  
+  .webDevelopment {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .cardweb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardweb img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 12px;
+  }
+  
+  .projects {
+    overflow: auto;
+    height: auto;
+    width: 100%;
+  }
+  
+  .codeweblist {
+    margin: 15px;
+    border-radius: 12px;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .codeweblist h3 {
+    padding: 20px;
+    padding-left: 10px;
+  }
+  
+  
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    .codecontainer {
+      padding: 5px;
+    }
+  
+    .cardweb img {
+      max-width: 200px;
+    }
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <!-- <input type="checkbox" id="toggle-menu"> -->
+        <label for="toggle-menu" class="burger-icon" onclick="toggleMenu()">&#9776;</label>
+        <div class="menu-container" id="menu-container">
+            <ul class="ul">
+                <li id="image"><a href="https://www.linkedin.com/in/prince-raj-1ab230223/"><img class="imag" width="51" src="image.jpg" alt=""></a></li>
+                <li class="list"><a href="/home.html">Home</a></li>
+                <li class="list"><a href="aboutme.html">About me</a></li>
+                <!-- <li class="list"><a>Hobbies</a></li> -->
+                <li class="list"><a href="/code.html">WEB DEV</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="circle" onclick="toggleCircle()">
+        <span class="circle-text">Click me</span>
+      </div>
+    <div class="container">
+        <div class="card">
+            <div class="bigfont">
+                <div class="text">
+                    Hi..!! This is Prince Raj, an aspiring Software Developer. I am from Gaya, Bihar. I have expertise in Java. Welcome to my portfolio. I have shared some of my dreams and passions here along with my skills. Want to know more? Scroll down...
+                </div>
+            </div>
+            <div id="redbar" class="redbar1"></div>
+        </div>
+        <div class="card">
+            <div class="bigfont" id="two">
+                <div class="text">
+                    I am an enthusiastic and passionate learner and coder. I am a web developer and have a good knowledge of JavaScript (vanilla), HTML, CSS, PUG template, and React.js. Scroll down to know more about me... 
+                </div>
+            </div>
+            <div id="redbar" class="redbar2"></div>
+        </div>
+        <div class="card">
+            <div class="bigfont" id="three">
+                <div class="text">
+                    My hobbies include weight training, watching anime, and solving LeetCode problems. I also enjoy cooking, especially at midnight. :)
+                </div>
+            </div>
+            <div id="redbar" class="redbar3"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

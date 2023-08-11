@@ -1,0 +1,164 @@
+body{
+    background:#222;
+    line-height: 30px;
+}
+.container{
+    /* margin-top: 15px; */
+    display: flex;
+    height: 690px;
+    border-bottom:4px solid rgba(128, 128, 128, 0.094);
+    
+}
+.leftcontainer{
+    border-right: 4px solid rgba(128, 128, 128, 0.205);
+    /* border-radius: 12px; */
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #19151d;
+    border-radius: 5px;
+    height: 688px;
+    
+}
+.photo{
+    border:2px solid rgba(255, 255, 255, 0.126);
+    border-radius: 12px;
+    padding:2px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutme{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* border: 2px solid #333; */
+    border-radius: 12px;
+    padding: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.photo img{
+    max-width:200px;
+    border-radius: 50%;
+}
+.rightcontainer{
+    background-color:#0c0116;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 688px;
+    border-radius: 5px;
+    border-left: 4px solid rgba(255, 255, 255, 0.153);
+}
+.bor{
+    border: 2px solid rgba(255, 255, 255, 0.11);
+    width:70%;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    padding:12px;
+}
+.header{
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.codecontainer{
+    display: flex;
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    /* height: 480px; */
+
+}
+.boxcode{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid rgba(255, 187, 213, 0.189);
+    border-radius: 12px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px   ;
+    height: 300px;
+}
+.incontainer{
+    /* min-height: 700px; */
+    width:50%;
+    margin:10px;
+
+}
+.geeksforgeeks{
+    background-color: rgba(1, 36, 1, 0.291);
+}
+.leetcode{
+    background-color: rgba(255, 213, 0, 0.101);
+}
+.codeforces{
+    background: rgba(255, 255, 255, 0.148);
+}
+.codestudio{
+    background-color: rgba(255, 0, 0, 0.185);
+}
+.logo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    /* height: 70px; */
+    height: 70px;
+    /* border-radius: 50%; */
+    
+}
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+    .leftcontainer,
+    .rightcontainer {
+      width: 100%;
+      border-radius: 0;
+      border: none;
+      padding: 20px;
+    }
+    .photo{
+        padding:50px 40px;
+    }
+    .photo img {
+      max-width: 150px;
+      
+    }
+    .aboutme {
+      margin-top: 12px;
+      margin-bottom: 12px;
+      padding: 10px;
+      line-height: 25px;
+    }
+    .bor {
+      width: 90%;
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+    .codecontainer {
+      flex-direction: column;
+    }
+    .incontainer{
+        width:100%;
+    }
+    .boxcode {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      height: auto;
+    }
+  }
+  
